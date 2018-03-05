@@ -1,4 +1,5 @@
 ####功能： 将多个股票放在同一图表中进行比较#####
+# 调用股票数据接口tushare
 import tushare as ts
 import pandas as pd
 import numpy as np
