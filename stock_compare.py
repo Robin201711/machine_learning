@@ -1,7 +1,7 @@
 ####功能： 将多个股票放在同一图表中进行比较#####
 # 调用股票数据接口tushare
 import tushare as ts
-import pandas as pd
+import pandas as pd # 数据分析库
 import numpy as np
 import matplotlib.pyplot as plt
 
