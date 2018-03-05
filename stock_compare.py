@@ -1,4 +1,4 @@
-#功能： 将多个股票放在同一图表中进行比较
+####功能： 将多个股票放在同一图表中进行比较
 import tushare as ts
 import pandas as pd
 import numpy as np
