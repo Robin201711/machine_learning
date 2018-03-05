@@ -1,11 +1,12 @@
-####功能： 将多个股票放在同一图表中进行比较#####
-# 调用股票数据接口tushare
+#### 功能:将多个股票放在同一图表中进行比较 #####
+#### 调用股票数据接口 tushare
 import tushare as ts
 import pandas as pd # 数据分析库
-import numpy as np
+import numpy as np  # 数学计算基础库
 import matplotlib.pyplot as plt
 
 plt.rcParams['font.sans-serif']=['SimHei'] #用来正常显示中文标签
+
 
 def draw(codes, count) :
     index = 0
